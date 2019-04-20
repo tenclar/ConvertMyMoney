@@ -1,0 +1,97 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin: 0;
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+
+  
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;     
+    justify-content: center;
+    align-items: center;
+  }
+  .container .text-muted {
+    margin: 20px 0;
+  }
+
+  .logo{
+    
+      /* width: 100vw; */
+      /* height: 100vh; */
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;     
+      justify-content: center;
+      align-items: center;
+  }
+
+hr{
+    
+    border-color: #97FFAE;
+    margin-bottom: 30px;
+}
+
+.box {
+    text-align: center;
+    background: #fff;
+   
+    width: 300px;
+    height: 300px;
+   
+}
+
+input {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 306px;
+    height: 54px;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    background: #fdfdfd;
+}
+button{
+    width: 306px;
+    height: 54px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 24px;
+
+}
+.result{
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+    text-align: center;
+}
