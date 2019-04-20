@@ -4,7 +4,7 @@
   "description": "Convert Money",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "node index"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "jest": "^24.7.1",
     "path": "^0.12.7",
     "views": "^1.0.2"
   }
