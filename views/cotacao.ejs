@@ -3,8 +3,15 @@
 
 
     <div class="result" >
-       
-      <%= quantidade %> de Dolar na Cotação <%= cotacao %> é igual a: <%= conversao %>
+       <% if(error) {%>
+            <%= error %>
+        <% }else { %>
+            <%= quantidade %>
+             de Dolares na Cotação 
+             <%= cotacao %> 
+             é igual a: 
+             <%= conversao %> Dolares
+        <% } %>
 
     </div>
 
